@@ -1,0 +1,26 @@
+telnet gaia.cs.umass.edu 80
+
+GET /ethereal-labs/lab2-1.html HTTP/1.0
+Host:gaia.cs.umass.edu
+
+telnet gaia.cs.umass.edu 80
+
+GET /favicon.ico HTTP/1.0
+Host:gaia.cs.umass.edu
+
+
+
+telnet apache.org 80
+
+GET /index.html HTTP/1.0
+Host:apache.org
+
+telnet facebook.com 80
+
+GET / HTTP/1.1
+Host:facebook.com
+
+telnet facebook.com 80
+
+GET / HTTP/1.0
+Host:facebook.com
